@@ -1,0 +1,41 @@
+.home {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .username {
+    font-weight: 800;
+    display: flex;
+    margin-bottom: 10px;
+    p {
+      margin: 2px 0 0 10px;
+      font-size: 13px;
+      color: rgb(101, 101, 101);
+    }
+  }
+  .comment-content {
+    margin-bottom: 15px;
+  }
+  .comment-button {
+    display: flex;
+    & > * {
+      margin: 0 10px 10px 0;
+    }
+    i {
+      font-size: 15px;
+      color: rgb(133, 133, 133);
+    }
+    p {
+      font-size: 14px;
+      float: right;
+      margin-left: 50px;
+    }
+  }
+}
